@@ -85,6 +85,47 @@ body{
   border-color: brown;
 }
 
+
+@media screen and (max-width: 1620px){
+   nav{
+    background-color: #fff;
+    width: 1700px;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+    display: block;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.card{
+  height: 600px;
+}
+
+}
+
+@media screen and (max-width: 1440px){
+   nav{
+    background-color: #fff;
+    width: 1455px;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+    display: block;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.card{
+  height: 600px;
+}
+
+}
+
 @media screen and (max-width: 1440px){
    nav{
     background-color: #fff;
