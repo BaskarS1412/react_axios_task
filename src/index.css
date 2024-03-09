@@ -1,0 +1,158 @@
+
+
+nav a{
+  margin-right: 20%;
+  font-size: 30px;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  color: #f1d7da;
+  margin-left: -65%;
+  padding-right: 50px;
+  background-color: #00A8AA;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+body{
+  /* background-color: darkgray; */
+  background: url("/Img/bat.jpg");
+}
+
+.card{
+  margin: 20px;
+  padding: 20px;
+  height: 550px;
+}
+
+.style-form{
+  background-color: #d6e8f5;
+  width: 100%;
+  height: 870px;
+}
+
+.lable-sty{
+  margin-left: 20%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px
+}
+
+.input-sty{
+  margin-left: 50px;
+  width: 550px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: aquamarine;
+  font-size:25px;
+  padding: 10px;
+  background-color: #364e67;
+  color: #fff;
+}
+
+.upt-sty{
+  margin-left: 40%;
+  width: 200px;
+  height: 65px;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #18ca98;
+}
+
+.upt-sty-blue {
+  margin-left: 40%;
+  width: 200px;
+  height: 65px;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #0d4ee8;
+}
+
+.home-sty{
+  background-color: #808000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: brown;
+}
+
+@media screen and (max-width: 1440px){
+   nav{
+    background-color: #fff;
+    width: 1455px;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+    display: block;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.card{
+  height: 600px;
+}
+
+}
+
+@media screen and (max-width: 1024px){
+   nav{
+    background-color: #fff;
+    width: 1050px;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+    display: block;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.card{
+  height: 750px;
+}
+
+}
+
+@media screen and (max-width:768px){
+  .card-img-top {
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
+}
+.card{
+  height: 800px;
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 600px)  {
+  nav{
+    background-color: #fff;
+    width: 611px;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    display: block;
+  }
+  .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card{
+  height: 950px;
+}
+}
